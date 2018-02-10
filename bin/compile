@@ -191,6 +191,11 @@ sub_env "$BIN_DIR/steps/geo-libs"
 # shellcheck source=bin/steps/gdal
 source "$BIN_DIR/steps/gdal"
 
+# xgboost support.
+# shellcheck source=bin/steps/xgboost
+source "$BIN_DIR/steps/xgboost"
+
+
 # Uninstall removed dependencies with Pip.
 let start=$(nowms)
 # shellcheck source=bin/steps/pip-uninstall
