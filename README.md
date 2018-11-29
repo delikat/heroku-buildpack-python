@@ -3,6 +3,7 @@
 # Heroku Buildpack: Python
 
 [![Build Status](https://travis-ci.org/heroku/heroku-buildpack-python.svg?branch=master)](https://travis-ci.org/heroku/heroku-buildpack-python)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdelikat%2Fheroku-buildpack-python-xgboost.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdelikat%2Fheroku-buildpack-python-xgboost?ref=badge_shield)
 
 This is the official [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) for Python apps, powered by [Pipenv](http://docs.pipenv.org/en/latest/), [pip](https://pip.pypa.io/) and other excellent software.
 
@@ -62,3 +63,7 @@ Runtime options include:
 - `python-2.7.14`
 - `pypy-5.7.1` (unsupported, experimental)
 - `pypy3-5.5.1` (unsupported, experimental)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdelikat%2Fheroku-buildpack-python-xgboost.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdelikat%2Fheroku-buildpack-python-xgboost?ref=badge_large)
